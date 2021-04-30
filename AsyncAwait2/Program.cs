@@ -17,7 +17,7 @@ namespace AsyncAwait2
 
             for (int i = 1; i <= p; i++)
             {
-                Console.WriteLine($"Nome del partecipante {i}: ");
+                Console.WriteLine($"Nome del partecipante {i}: ");  
                 string nome = Console.ReadLine();
                 partecipanti.Add(nome);
             }
